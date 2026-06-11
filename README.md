@@ -246,6 +246,12 @@ All errors are logged using Python logging.
 
 ---
 
+## Deployment Note
+
+The source code, unit tests, Pub/Sub integration logic, Cloud Function implementation, deployment commands, and infrastructure configuration have been fully prepared and validated locally.
+
+Cloud Function deployment was not executed because the Google Cloud project did not have an active billing account attached, which is required by Cloud Build and Artifact Registry for deployment.
+
 ## Future Improvements
 
 * Deploy using Cloud Functions Gen 2
